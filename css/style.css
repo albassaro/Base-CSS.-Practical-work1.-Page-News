@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #d0d1d3;
+    background: url('https://unsplash.com/photos/g2MossmxZNs/download?force=true&w=1920') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #c6be94;
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(117, 129, 141);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px; 
+    margin: 50px 50px 80px 50px;
+    padding: 6px 15px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px 8px rgba(68, 92, 92, 0.3);
+}
+
+.article-header h2:nth-child(1)::before{
+    content: "New ";
+}
+
+article h2 {
+    color: rgb(28, 113, 204);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+article a:hover {
+    color: #4542e7;
+}
+
+article:nth-child(even){
+    background-color: #80deea;
+}
+
+article h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.article-meta {
+    margin-bottom: 5px;
+    padding-top: 25px;
+}
+
+.line-break {
+    width: 100%;
+}
+
+.article-text {
+    width: 300px;
+    word-wrap: break-word;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px; 
+    text-align: left;
+    
+}
+
+.article-text p{
+    text-indent: 12px;
+    text-align:justify;
+}
+article img { 
+    margin-top: 10px;
+    width: 350px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.article-img-signature {
+    margin-left: 400px;
+    padding: 0 25px;
+    font-size: 15px;
+    
+}
+
+
